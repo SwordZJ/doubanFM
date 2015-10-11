@@ -1,0 +1,38 @@
+//
+//  doubanFM.pch
+//  doubanFM
+//
+//  Created by liuzhouji on 15/8/15.
+//  Copyright (c) 2015年 ZJ. All rights reserved.
+//
+
+#ifndef ___FM____FM_pch
+#define ___FM____FM_pch
+
+#ifdef __OBJC__
+
+#ifdef DEBUG
+
+#define ZJLog(...) NSLog(@"%s--%d \n%@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#else
+#define ZJLog(...)
+#endif
+
+
+#import "UIImage+Extension.h"
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+
+// 屏幕宽高
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+// 颜色
+#define ZJColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+// 随机色
+#define ZJRandomColor ZJColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+// 取带透明度的颜色
+#define ZJColorRGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+
+
+#endif
+#endif

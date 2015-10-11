@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF0FC80A1B81F82300756762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FC8011B81F82300756762 /* AppDelegate.m */; };
+		FF0FC80B1B81F82300756762 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FC8041B81F82300756762 /* UIBarButtonItem+Extension.m */; };
+		FF0FC80C1B81F82300756762 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FC8061B81F82300756762 /* UIImage+Extension.m */; };
+		FF0FC80D1B81F82300756762 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FC8081B81F82300756762 /* UIView+Extension.m */; };
+		FF0FC80E1B81F82300756762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FC8091B81F82300756762 /* main.m */; };
+		FF0FC8111B81F8CF00756762 /* ZJMainViewControlle.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FC8101B81F8CF00756762 /* ZJMainViewControlle.m */; };
+		FF0FC8141B81F96100756762 /* ZJLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FC8131B81F96100756762 /* ZJLeftView.m */; };
+		FF0FC8171B81FFCC00756762 /* ZJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FC8161B81FFCC00756762 /* ZJButton.m */; };
+		FF0FC81A1B82033C00756762 /* ZJBaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FC8191B82033C00756762 /* ZJBaseNavController.m */; };
+		FF3A23E41B7795C80058C755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3A23E21B7795C80058C755 /* Main.storyboard */; };
+		FF3A23E61B7795C80058C755 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3A23E51B7795C80058C755 /* Images.xcassets */; };
+		FF3A23F51B7795C80058C755 /* ___FMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A23F41B7795C80058C755 /* ___FMTests.m */; };
+		FFCE62101B9485F1008FB5EB /* ZJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCE620E1B9485F1008FB5EB /* ZJLoginViewController.m */; };
+		FFCE62111B9485F1008FB5EB /* ZJLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFCE620F1B9485F1008FB5EB /* ZJLoginViewController.xib */; };
+		FFCE62151B948955008FB5EB /* ZJDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCE62131B948955008FB5EB /* ZJDiscoverController.m */; };
+		FFCE62161B948955008FB5EB /* ZJDiscoverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFCE62141B948955008FB5EB /* ZJDiscoverController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF3A23EF1B7795C80058C755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3A23CD1B7795C80058C755 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF3A23D41B7795C80058C755;
+			remoteInfo = doubanFM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF0FC8001B81F82300756762 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF0FC8011B81F82300756762 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF0FC8031B81F82300756762 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		FF0FC8041B81F82300756762 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		FF0FC8051B81F82300756762 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		FF0FC8061B81F82300756762 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		FF0FC8071B81F82300756762 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		FF0FC8081B81F82300756762 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		FF0FC8091B81F82300756762 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF0FC80F1B81F8CF00756762 /* ZJMainViewControlle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJMainViewControlle.h; sourceTree = "<group>"; };
+		FF0FC8101B81F8CF00756762 /* ZJMainViewControlle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJMainViewControlle.m; sourceTree = "<group>"; };
+		FF0FC8121B81F96100756762 /* ZJLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLeftView.h; sourceTree = "<group>"; };
+		FF0FC8131B81F96100756762 /* ZJLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLeftView.m; sourceTree = "<group>"; };
+		FF0FC8151B81FFCC00756762 /* ZJButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJButton.h; sourceTree = "<group>"; };
+		FF0FC8161B81FFCC00756762 /* ZJButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJButton.m; sourceTree = "<group>"; };
+		FF0FC8181B82033C00756762 /* ZJBaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJBaseNavController.h; sourceTree = "<group>"; };
+		FF0FC8191B82033C00756762 /* ZJBaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJBaseNavController.m; sourceTree = "<group>"; };
+		FF3A23D51B7795C80058C755 /* doubanFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doubanFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3A23D91B7795C80058C755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3A23E31B7795C80058C755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF3A23E51B7795C80058C755 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF3A23EE1B7795C80058C755 /* doubanFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doubanFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3A23F31B7795C80058C755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3A23F41B7795C80058C755 /* ___FMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FMTests.m"; sourceTree = "<group>"; };
+		FFCE620D1B9485F1008FB5EB /* ZJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLoginViewController.h; sourceTree = "<group>"; };
+		FFCE620E1B9485F1008FB5EB /* ZJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLoginViewController.m; sourceTree = "<group>"; };
+		FFCE620F1B9485F1008FB5EB /* ZJLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJLoginViewController.xib; sourceTree = "<group>"; };
+		FFCE62121B948955008FB5EB /* ZJDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDiscoverController.h; sourceTree = "<group>"; };
+		FFCE62131B948955008FB5EB /* ZJDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverController.m; sourceTree = "<group>"; };
+		FFCE62141B948955008FB5EB /* ZJDiscoverController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJDiscoverController.xib; sourceTree = "<group>"; };
+		FFD876B41B7EECAA0009DC15 /* doubanFM.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = doubanFM.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF3A23D21B7795C80058C755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3A23EB1B7795C80058C755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF0FC7E61B81F82300756762 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF0FC7E71B81F82300756762 /* Discover(发现音乐) */,
+				FF0FC7EB1B81F82300756762 /* Login */,
+				FF0FC7EF1B81F82300756762 /* Main(主界面) */,
+				FF0FC7F31B81F82300756762 /* MusicInMyPhone(手机里的歌曲) */,
+				FF0FC7F71B81F82300756762 /* MyCollection(我的收藏) */,
+				FF0FC7FB1B81F82300756762 /* MyDownLoad(我的离线) */,
+				FF0FC7FF1B81F82300756762 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FF0FC7E71B81F82300756762 /* Discover(发现音乐) */ = {
+			isa = PBXGroup;
+			children = (
+				FF0FC7E81B81F82300756762 /* Controller */,
+				FF0FC7E91B81F82300756762 /* Model */,
+				FF0FC7EA1B81F82300756762 /* View */,
+			);
+			path = "Discover(发现音乐)";
+			sourceTree = "<group>";
+		};
+		FF0FC7E81B81F82300756762 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFCE62121B948955008FB5EB /* ZJDiscoverController.h */,
+				FFCE62131B948955008FB5EB /* ZJDiscoverController.m */,
+				FFCE62141B948955008FB5EB /* ZJDiscoverController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF0FC7E91B81F82300756762 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF0FC7EA1B81F82300756762 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF0FC7EB1B81F82300756762 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FF0FC7EC1B81F82300756762 /* Controller */,
+				FF0FC7ED1B81F82300756762 /* Model */,
+				FF0FC7EE1B81F82300756762 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FF0FC7EC1B81F82300756762 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFCE620D1B9485F1008FB5EB /* ZJLoginViewController.h */,
+				FFCE620E1B9485F1008FB5EB /* ZJLoginViewController.m */,
+				FFCE620F1B9485F1008FB5EB /* ZJLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF0FC7ED1B81F82300756762 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF0FC7EE1B81F82300756762 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF0FC7EF1B81F82300756762 /* Main(主界面) */ = {
+			isa = PBXGroup;
+			children = (
+				FF0FC7F01B81F82300756762 /* Controller */,
+				FF0FC7F11B81F82300756762 /* Model */,
+				FF0FC7F21B81F82300756762 /* View */,
+			);
+			path = "Main(主界面)";
+			sourceTree = "<group>";
+		};
+		FF0FC7F01B81F82300756762 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF0FC80F1B81F8CF00756762 /* ZJMainViewControlle.h */,
+				FF0FC8101B81F8CF00756762 /* ZJMainViewControlle.m */,
+				FF0FC8181B82033C00756762 /* ZJBaseNavController.h */,
+				FF0FC8191B82033C00756762 /* ZJBaseNavController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF0FC7F11B81F82300756762 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF0FC7F21B81F82300756762 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF0FC8121B81F96100756762 /* ZJLeftView.h */,
+				FF0FC8131B81F96100756762 /* ZJLeftView.m */,
+				FF0FC8151B81FFCC00756762 /* ZJButton.h */,
+				FF0FC8161B81FFCC00756762 /* ZJButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF0FC7F31B81F82300756762 /* MusicInMyPhone(手机里的歌曲) */ = {
+			isa = PBXGroup;
+			children = (
+				FF0FC7F41B81F82300756762 /* Controller */,
+				FF0FC7F51B81F82300756762 /* Model */,
+				FF0FC7F61B81F82300756762 /* View */,
+			);
+			path = "MusicInMyPhone(手机里的歌曲)";
+			sourceTree = "<group>";
+		};
+		FF0FC7F41B81F82300756762 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF0FC7F51B81F82300756762 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF0FC7F61B81F82300756762 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF0FC7F71B81F82300756762 /* MyCollection(我的收藏) */ = {
+			isa = PBXGroup;
+			children = (
+				FF0FC7F81B81F82300756762 /* Controller */,
+				FF0FC7F91B81F82300756762 /* Model */,
+				FF0FC7FA1B81F82300756762 /* View */,
+			);
+			path = "MyCollection(我的收藏)";
+			sourceTree = "<group>";
+		};
+		FF0FC7F81B81F82300756762 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF0FC7F91B81F82300756762 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF0FC7FA1B81F82300756762 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF0FC7FB1B81F82300756762 /* MyDownLoad(我的离线) */ = {
+			isa = PBXGroup;
+			children = (
+				FF0FC7FC1B81F82300756762 /* Controller */,
+				FF0FC7FD1B81F82300756762 /* Model */,
+				FF0FC7FE1B81F82300756762 /* View */,
+			);
+			path = "MyDownLoad(我的离线)";
+			sourceTree = "<group>";
+		};
+		FF0FC7FC1B81F82300756762 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF0FC7FD1B81F82300756762 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF0FC7FE1B81F82300756762 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF0FC7FF1B81F82300756762 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FF0FC8021B81F82300756762 /* Category */,
+				FF0FC8001B81F82300756762 /* AppDelegate.h */,
+				FF0FC8011B81F82300756762 /* AppDelegate.m */,
+				FF0FC8091B81F82300756762 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FF0FC8021B81F82300756762 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FF0FC8031B81F82300756762 /* UIBarButtonItem+Extension.h */,
+				FF0FC8041B81F82300756762 /* UIBarButtonItem+Extension.m */,
+				FF0FC8051B81F82300756762 /* UIImage+Extension.h */,
+				FF0FC8061B81F82300756762 /* UIImage+Extension.m */,
+				FF0FC8071B81F82300756762 /* UIView+Extension.h */,
+				FF0FC8081B81F82300756762 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FF3A23CC1B7795C80058C755 = {
+			isa = PBXGroup;
+			children = (
+				FF3A23D71B7795C80058C755 /* doubanFM */,
+				FF3A23F11B7795C80058C755 /* doubanFMTests */,
+				FF3A23D61B7795C80058C755 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3A23D61B7795C80058C755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A23D51B7795C80058C755 /* doubanFM.app */,
+				FF3A23EE1B7795C80058C755 /* doubanFMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3A23D71B7795C80058C755 /* doubanFM */ = {
+			isa = PBXGroup;
+			children = (
+				FF0FC7E61B81F82300756762 /* Classes */,
+				FF3A23D81B7795C80058C755 /* Supporting Files */,
+			);
+			path = doubanFM;
+			sourceTree = "<group>";
+		};
+		FF3A23D81B7795C80058C755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A23E21B7795C80058C755 /* Main.storyboard */,
+				FF3A23E51B7795C80058C755 /* Images.xcassets */,
+				FF3A23D91B7795C80058C755 /* Info.plist */,
+				FFD876B41B7EECAA0009DC15 /* doubanFM.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF3A23F11B7795C80058C755 /* doubanFMTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A23F41B7795C80058C755 /* ___FMTests.m */,
+				FF3A23F21B7795C80058C755 /* Supporting Files */,
+			);
+			path = doubanFMTests;
+			sourceTree = "<group>";
+		};
+		FF3A23F21B7795C80058C755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3A23F31B7795C80058C755 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF3A23D41B7795C80058C755 /* doubanFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3A23F81B7795C80058C755 /* Build configuration list for PBXNativeTarget "doubanFM" */;
+			buildPhases = (
+				FF3A23D11B7795C80058C755 /* Sources */,
+				FF3A23D21B7795C80058C755 /* Frameworks */,
+				FF3A23D31B7795C80058C755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = doubanFM;
+			productName = doubanFM;
+			productReference = FF3A23D51B7795C80058C755 /* doubanFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF3A23ED1B7795C80058C755 /* doubanFMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3A23FB1B7795C80058C755 /* Build configuration list for PBXNativeTarget "doubanFMTests" */;
+			buildPhases = (
+				FF3A23EA1B7795C80058C755 /* Sources */,
+				FF3A23EB1B7795C80058C755 /* Frameworks */,
+				FF3A23EC1B7795C80058C755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3A23F01B7795C80058C755 /* PBXTargetDependency */,
+			);
+			name = doubanFMTests;
+			productName = doubanFMTests;
+			productReference = FF3A23EE1B7795C80058C755 /* doubanFMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3A23CD1B7795C80058C755 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ZJ;
+				TargetAttributes = {
+					FF3A23D41B7795C80058C755 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = JKYWZLHWW9;
+					};
+					FF3A23ED1B7795C80058C755 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FF3A23D41B7795C80058C755;
+					};
+				};
+			};
+			buildConfigurationList = FF3A23D01B7795C80058C755 /* Build configuration list for PBXProject "doubanFM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				zh,
+			);
+			mainGroup = FF3A23CC1B7795C80058C755;
+			productRefGroup = FF3A23D61B7795C80058C755 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF3A23D41B7795C80058C755 /* doubanFM */,
+				FF3A23ED1B7795C80058C755 /* doubanFMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF3A23D31B7795C80058C755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCE62161B948955008FB5EB /* ZJDiscoverController.xib in Resources */,
+				FF3A23E41B7795C80058C755 /* Main.storyboard in Resources */,
+				FFCE62111B9485F1008FB5EB /* ZJLoginViewController.xib in Resources */,
+				FF3A23E61B7795C80058C755 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3A23EC1B7795C80058C755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF3A23D11B7795C80058C755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0FC8111B81F8CF00756762 /* ZJMainViewControlle.m in Sources */,
+				FF0FC80B1B81F82300756762 /* UIBarButtonItem+Extension.m in Sources */,
+				FFCE62101B9485F1008FB5EB /* ZJLoginViewController.m in Sources */,
+				FF0FC80C1B81F82300756762 /* UIImage+Extension.m in Sources */,
+				FF0FC8141B81F96100756762 /* ZJLeftView.m in Sources */,
+				FFCE62151B948955008FB5EB /* ZJDiscoverController.m in Sources */,
+				FF0FC80D1B81F82300756762 /* UIView+Extension.m in Sources */,
+				FF0FC8171B81FFCC00756762 /* ZJButton.m in Sources */,
+				FF0FC80E1B81F82300756762 /* main.m in Sources */,
+				FF0FC80A1B81F82300756762 /* AppDelegate.m in Sources */,
+				FF0FC81A1B82033C00756762 /* ZJBaseNavController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3A23EA1B7795C80058C755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3A23F51B7795C80058C755 /* ___FMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF3A23F01B7795C80058C755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF3A23D41B7795C80058C755 /* doubanFM */;
+			targetProxy = FF3A23EF1B7795C80058C755 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF3A23E21B7795C80058C755 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3A23E31B7795C80058C755 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF3A23F61B7795C80058C755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = doubanFM/doubanFM.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF3A23F71B7795C80058C755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = doubanFM/doubanFM.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF3A23F91B7795C80058C755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = doubanFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FF3A23FA1B7795C80058C755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = doubanFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FF3A23FC1B7795C80058C755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = doubanFMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doubanFM.app/doubanFM";
+			};
+			name = Debug;
+		};
+		FF3A23FD1B7795C80058C755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = doubanFMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doubanFM.app/doubanFM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF3A23D01B7795C80058C755 /* Build configuration list for PBXProject "doubanFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3A23F61B7795C80058C755 /* Debug */,
+				FF3A23F71B7795C80058C755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3A23F81B7795C80058C755 /* Build configuration list for PBXNativeTarget "doubanFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3A23F91B7795C80058C755 /* Debug */,
+				FF3A23FA1B7795C80058C755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3A23FB1B7795C80058C755 /* Build configuration list for PBXNativeTarget "doubanFMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3A23FC1B7795C80058C755 /* Debug */,
+				FF3A23FD1B7795C80058C755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3A23CD1B7795C80058C755 /* Project object */;
+}

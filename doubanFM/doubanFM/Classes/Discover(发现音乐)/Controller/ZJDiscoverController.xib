@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZJDiscoverController">
+            <connections>
+                <outlet property="leftBtn" destination="Zlp-5q-2Ul" id="L0S-xW-jhZ"/>
+                <outlet property="rightBtn" destination="4x6-AP-eO5" id="NyR-73-nmw"/>
+                <outlet property="sc" destination="DL3-fS-18e" id="hfF-g7-Cex"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3FB-nP-hPE">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zlp-5q-2Ul">
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="44"/>
+                            <state key="normal" title="兆赫">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="leftBtnClick:" destination="-1" eventType="touchUpInside" id="XkR-5F-6ID"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4x6-AP-eO5">
+                            <rect key="frame" x="300" y="0.0" width="300" height="44"/>
+                            <state key="normal" title="歌单">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="rightBtnClick:" destination="-1" eventType="touchUpInside" id="Z7d-6w-j7F"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="4x6-AP-eO5" secondAttribute="bottom" id="0Ke-Ea-ewk"/>
+                        <constraint firstItem="Zlp-5q-2Ul" firstAttribute="top" secondItem="3FB-nP-hPE" secondAttribute="top" id="1Qy-ks-xQw"/>
+                        <constraint firstAttribute="bottom" secondItem="Zlp-5q-2Ul" secondAttribute="bottom" id="5Zi-5W-XUg"/>
+                        <constraint firstItem="Zlp-5q-2Ul" firstAttribute="leading" secondItem="3FB-nP-hPE" secondAttribute="leading" id="FbV-lj-QgK"/>
+                        <constraint firstItem="4x6-AP-eO5" firstAttribute="top" secondItem="3FB-nP-hPE" secondAttribute="top" id="HOw-qc-QIv"/>
+                        <constraint firstAttribute="height" constant="44" id="Hgt-RH-NDJ"/>
+                        <constraint firstItem="4x6-AP-eO5" firstAttribute="leading" secondItem="Zlp-5q-2Ul" secondAttribute="trailing" id="U6l-XC-f1d"/>
+                        <constraint firstItem="Zlp-5q-2Ul" firstAttribute="width" secondItem="4x6-AP-eO5" secondAttribute="width" id="ghu-gG-NSq"/>
+                        <constraint firstAttribute="trailing" secondItem="4x6-AP-eO5" secondAttribute="trailing" id="jYQ-mz-LaT"/>
+                    </constraints>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DL3-fS-18e">
+                    <rect key="frame" x="0.0" y="44" width="600" height="556"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="DL3-fS-18e" secondAttribute="bottom" id="5j9-V3-CPB"/>
+                <constraint firstItem="3FB-nP-hPE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ldu-6i-zWD"/>
+                <constraint firstAttribute="trailing" secondItem="DL3-fS-18e" secondAttribute="trailing" id="ajD-ju-YIo"/>
+                <constraint firstItem="3FB-nP-hPE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ldI-RQ-KDW"/>
+                <constraint firstAttribute="trailing" secondItem="3FB-nP-hPE" secondAttribute="trailing" id="mq6-Ff-B8u"/>
+                <constraint firstItem="DL3-fS-18e" firstAttribute="top" secondItem="3FB-nP-hPE" secondAttribute="bottom" id="nLz-CB-C9H"/>
+                <constraint firstItem="DL3-fS-18e" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qvr-5c-n0b"/>
+            </constraints>
+            <point key="canvasLocation" x="232" y="354"/>
+        </view>
+    </objects>
+</document>
