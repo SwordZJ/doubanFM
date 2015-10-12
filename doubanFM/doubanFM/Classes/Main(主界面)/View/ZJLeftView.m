@@ -41,7 +41,7 @@
     [self addBtnWithIcon:@"sidebar_nav_downLoad" title:@"我的离线" selectedColor:ZJColorRGBA(76, 132, 190, alpha)];
     [self addBtnWithIcon:@"sidebar_nav_collection" title:@"我的收藏" selectedColor:ZJColorRGBA(101, 170, 78, alpha)];
     [self addBtnWithIcon:@"sidebar_nav_music" title:@"手机中的音乐" selectedColor:ZJColorRGBA(170, 172, 73, alpha)];
-    
+    [self addBtnWithIcon:@"sidebar_nav_collection" title:@"设置" selectedColor:ZJColorRGBA(170, 172, 73, alpha)];
 
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DCBB4A0F7DBD262B8054C4E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E81167EB17A0F7FF85A45828 /* libPods.a */; };
 		FF0FC80A1B81F82300756762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FC8011B81F82300756762 /* AppDelegate.m */; };
 		FF0FC80B1B81F82300756762 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FC8041B81F82300756762 /* UIBarButtonItem+Extension.m */; };
 		FF0FC80C1B81F82300756762 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0FC8061B81F82300756762 /* UIImage+Extension.m */; };
@@ -19,10 +20,13 @@
 		FF3A23E41B7795C80058C755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3A23E21B7795C80058C755 /* Main.storyboard */; };
 		FF3A23E61B7795C80058C755 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3A23E51B7795C80058C755 /* Images.xcassets */; };
 		FF3A23F51B7795C80058C755 /* ___FMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3A23F41B7795C80058C755 /* ___FMTests.m */; };
+		FFA32DAE1BCB7532006B58BC /* ZJSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA32DAC1BCB7532006B58BC /* ZJSearchViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FFA32DAF1BCB7532006B58BC /* ZJSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA32DAD1BCB7532006B58BC /* ZJSearchViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		FFCE62101B9485F1008FB5EB /* ZJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCE620E1B9485F1008FB5EB /* ZJLoginViewController.m */; };
 		FFCE62111B9485F1008FB5EB /* ZJLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFCE620F1B9485F1008FB5EB /* ZJLoginViewController.xib */; };
 		FFCE62151B948955008FB5EB /* ZJDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCE62131B948955008FB5EB /* ZJDiscoverController.m */; };
 		FFCE62161B948955008FB5EB /* ZJDiscoverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFCE62141B948955008FB5EB /* ZJDiscoverController.xib */; };
+		FFEDEA0C1BCAAFA2004B4073 /* ZJTagBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEDEA0B1BCAAFA2004B4073 /* ZJTagBtn.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19BDD0AF90621EE0D4AFF165 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B4914E557C3D4ECC13FBBE22 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E81167EB17A0F7FF85A45828 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0FC8001B81F82300756762 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF0FC8011B81F82300756762 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FF0FC8031B81F82300756762 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
@@ -60,6 +67,9 @@
 		FF3A23EE1B7795C80058C755 /* doubanFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doubanFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3A23F31B7795C80058C755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF3A23F41B7795C80058C755 /* ___FMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___FMTests.m"; sourceTree = "<group>"; };
+		FFA32DAB1BCB7532006B58BC /* ZJSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSearchViewController.h; sourceTree = "<group>"; };
+		FFA32DAC1BCB7532006B58BC /* ZJSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSearchViewController.m; sourceTree = "<group>"; };
+		FFA32DAD1BCB7532006B58BC /* ZJSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJSearchViewController.xib; sourceTree = "<group>"; };
 		FFCE620D1B9485F1008FB5EB /* ZJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLoginViewController.h; sourceTree = "<group>"; };
 		FFCE620E1B9485F1008FB5EB /* ZJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLoginViewController.m; sourceTree = "<group>"; };
 		FFCE620F1B9485F1008FB5EB /* ZJLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJLoginViewController.xib; sourceTree = "<group>"; };
@@ -67,6 +77,8 @@
 		FFCE62131B948955008FB5EB /* ZJDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDiscoverController.m; sourceTree = "<group>"; };
 		FFCE62141B948955008FB5EB /* ZJDiscoverController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZJDiscoverController.xib; sourceTree = "<group>"; };
 		FFD876B41B7EECAA0009DC15 /* doubanFM.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = doubanFM.pch; sourceTree = "<group>"; };
+		FFEDEA0A1BCAAFA2004B4073 /* ZJTagBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTagBtn.h; sourceTree = "<group>"; };
+		FFEDEA0B1BCAAFA2004B4073 /* ZJTagBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTagBtn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCBB4A0F7DBD262B8054C4E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +100,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		094327689A17B5F06B0E6870 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4914E557C3D4ECC13FBBE22 /* Pods.debug.xcconfig */,
+				19BDD0AF90621EE0D4AFF165 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DC7FEC3B9BF8928ED2D4900 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E81167EB17A0F7FF85A45828 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF0FC7E61B81F82300756762 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +147,9 @@
 				FFCE62121B948955008FB5EB /* ZJDiscoverController.h */,
 				FFCE62131B948955008FB5EB /* ZJDiscoverController.m */,
 				FFCE62141B948955008FB5EB /* ZJDiscoverController.xib */,
+				FFA32DAB1BCB7532006B58BC /* ZJSearchViewController.h */,
+				FFA32DAC1BCB7532006B58BC /* ZJSearchViewController.m */,
+				FFA32DAD1BCB7532006B58BC /* ZJSearchViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -131,6 +164,8 @@
 		FF0FC7EA1B81F82300756762 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FFEDEA0A1BCAAFA2004B4073 /* ZJTagBtn.h */,
+				FFEDEA0B1BCAAFA2004B4073 /* ZJTagBtn.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -331,6 +366,8 @@
 				FF3A23D71B7795C80058C755 /* doubanFM */,
 				FF3A23F11B7795C80058C755 /* doubanFMTests */,
 				FF3A23D61B7795C80058C755 /* Products */,
+				094327689A17B5F06B0E6870 /* Pods */,
+				9DC7FEC3B9BF8928ED2D4900 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -387,9 +424,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF3A23F81B7795C80058C755 /* Build configuration list for PBXNativeTarget "doubanFM" */;
 			buildPhases = (
+				39C87F6BE8385F75BF27B574 /* Check Pods Manifest.lock */,
 				FF3A23D11B7795C80058C755 /* Sources */,
 				FF3A23D21B7795C80058C755 /* Frameworks */,
 				FF3A23D31B7795C80058C755 /* Resources */,
+				85221BBDAF5F0C1EDFF28318 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -464,6 +503,7 @@
 			files = (
 				FFCE62161B948955008FB5EB /* ZJDiscoverController.xib in Resources */,
 				FF3A23E41B7795C80058C755 /* Main.storyboard in Resources */,
+				FFA32DAF1BCB7532006B58BC /* ZJSearchViewController.xib in Resources */,
 				FFCE62111B9485F1008FB5EB /* ZJLoginViewController.xib in Resources */,
 				FF3A23E61B7795C80058C755 /* Images.xcassets in Resources */,
 			);
@@ -478,12 +518,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39C87F6BE8385F75BF27B574 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85221BBDAF5F0C1EDFF28318 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF3A23D11B7795C80058C755 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FF0FC8111B81F8CF00756762 /* ZJMainViewControlle.m in Sources */,
+				FFEDEA0C1BCAAFA2004B4073 /* ZJTagBtn.m in Sources */,
 				FF0FC80B1B81F82300756762 /* UIBarButtonItem+Extension.m in Sources */,
 				FFCE62101B9485F1008FB5EB /* ZJLoginViewController.m in Sources */,
 				FF0FC80C1B81F82300756762 /* UIImage+Extension.m in Sources */,
@@ -493,6 +567,7 @@
 				FF0FC8171B81FFCC00756762 /* ZJButton.m in Sources */,
 				FF0FC80E1B81F82300756762 /* main.m in Sources */,
 				FF0FC80A1B81F82300756762 /* AppDelegate.m in Sources */,
+				FFA32DAE1BCB7532006B58BC /* ZJSearchViewController.m in Sources */,
 				FF0FC81A1B82033C00756762 /* ZJBaseNavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,6 +688,7 @@
 		};
 		FF3A23F91B7795C80058C755 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4914E557C3D4ECC13FBBE22 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -627,6 +703,7 @@
 		};
 		FF3A23FA1B7795C80058C755 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BDD0AF90621EE0D4AFF165 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

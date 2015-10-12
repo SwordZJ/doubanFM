@@ -75,6 +75,11 @@ typedef enum{
     musicInMyPhoneVc.view.backgroundColor = ZJRandomColor;
     [self setUpNav:musicInMyPhoneVc title:@"手机里的音乐"];
     
+    // 创建手机里的设置子控制器
+    UIViewController *settingVc = [[UITableViewController alloc] init];
+    musicInMyPhoneVc.view.backgroundColor = ZJRandomColor;
+    [self setUpNav:settingVc title:@"设置"];
+    
 }
 
 // 添加左部菜单视图
@@ -142,11 +147,6 @@ typedef enum{
     // 创建左边按钮
     vc.navigationItem.leftBarButtonItem =  [UIBarButtonItem itemWithImageName:@"top_navigation_menuicon" title:nil target:self action:@selector(LeftMenuClick)];
     
-    // 创建右边按钮
-    UIBarButtonItem *searchItem = [UIBarButtonItem itemWithImageName:@"searchm" title:nil target:self action:@selector(searchBtnClick)];
-    UIBarButtonItem *rightMenuItem  = [UIBarButtonItem itemWithImageName:@"setting" title:nil target:self action:@selector(rightMenuBtnClick)];
-    vc.navigationItem.rightBarButtonItems = @[rightMenuItem,searchItem];
-    
     // 创建导航控制器
     ZJBaseNavController *discoverNav = [[ZJBaseNavController alloc] initWithRootViewController:vc];
     [self addChildViewController:discoverNav];
@@ -169,7 +169,6 @@ typedef enum{
         self.leftView.transform = CGAffineTransformMakeTranslation(self.leftView.width, 0);
         cover.alpha = 0.2;
     }];
-//    ZJLog(@"%@",NSStringFromCGRect(_leftView.frame));
 }
 
 // 蒙板点击事件
@@ -183,13 +182,7 @@ typedef enum{
     }];
 }
 
--(void)searchBtnClick{
-    NSLog(@"%s",__func__);
 
-}
--(void)rightMenuBtnClick{
-    NSLog(@"%s",__func__);
-}
 
 
 #pragma mark - ZJLeftViewDelegate
